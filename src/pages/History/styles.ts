@@ -6,6 +6,9 @@ export const HistoryContainer = styled.main`
 
   display: flex;
   flex-direction: column;
+  @media (max-width: 600px) {
+    padding: 1rem 0;
+  }
 
   h1 {
     font-size: 1.5rem;
